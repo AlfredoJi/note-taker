@@ -7,7 +7,7 @@ The purpose of this application is that the user can write and save notes. The s
 ## Installation
 
 No steps needed to install. Just follow this URL to get to website.
-URL: 
+URL: https://ancient-waters-25166.herokuapp.com/
 
 ## Usage
 
