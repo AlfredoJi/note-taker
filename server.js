@@ -7,11 +7,11 @@ const path = require('path');
 //importing a helper file that will help append our new notes
 const { readAndAppend, writeToFile, readFromFile } = require('./helpers/fsUtils');
 
+//Specify the port that will run the express.js server
+const PORT = process.env.PORT || 3001;
+
 //Grabbing an instance of express.js
 const app = express();
-
-//Specify the port that will run the express.js server
-const PORT = 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
